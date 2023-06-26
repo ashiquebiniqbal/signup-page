@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 50;
+    
+    height: 100vh;
+    max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .breadcrumb-item.active {
+    color: rgb(233, 224, 224);
+  }
+  
+  .breadcrumb-item.active span {
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  
+  .breadcrumb-item.active span:before {
+    
+    color: rgb(6, 1, 1);
+  }
+  
+  .list-group-item {
+    border: none;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:active {
+    box-shadow: none;
+  }
+  
+  .confirmation-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .confirmation-tick {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+
+
+.form-control {
+    width: 100%;
+  }
+  
+  
+  .confirmation-message {
+    margin-bottom: 1.5rem;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .breadcrumb-item {
+    color: black;
+  }
+  
+  .breadcrumb-item.active {
+    color: blue;
+  }
+  
+  .breadcrumb-item.active span {
+    margin-right: 5px;
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  /* styles.css */
+
+.centered-text {
+    text-align: center;
+  }
+  
