@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles.css';
@@ -97,7 +98,7 @@ const Login = () => {
       </button>
       {loginError && <p className="text-danger">{loginError}</p>}
       <p className="centered-text">
-        Don't Have an Account? <a href="/registration">Register Now</a>
+        Don't Have an Account? <Link to="/registration">Register Now</Link>
       </p>
     </div>
   );
